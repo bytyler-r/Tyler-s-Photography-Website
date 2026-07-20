@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tyler's Photography (@bytyler_r) - Professional South African photographer specializing in events, portraits, school functions, and automotive photography.">
+    <meta name="author" content="Tyler's Photography">
+    <title>Tyler's Photography | @bytyler_r</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <a href="#hero">TYLER<span>.</span></a>
+        </div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#packages">Packages</a>
+            <a href="#contact" class="btn-primary-sm">Book Shoot</a>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="tagline">SOUTH AFRICAN PHOTOGRAPHER</p>
+            <h1>Capturing moments.<br><span class="highlight">Creating memories.</span></h1>
+            <p class="sub-text">Events &bull; Portraits &bull; School Functions &bull; Automotive</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn-primary">Book a Shoot</a>
+                <a href="#portfolio" class="btn-secondary">View Gallery</a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container grid-2">
+            <div class="about-image-wrapper">
+                <div class="glass-card image-card">
+                    <img src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&w=800&q=80" alt="Tyler Photographer" loading="lazy">
+                </div>
+            </div>
+            <div class="about-text">
+                <p class="section-subtitle">ABOUT THE ARTIST</p>
+                <h2>Tech-Driven Visual Storytelling.</h2>
+                <p>Hey, I'm Tyler (<a href="https://instagram.com/bytyler_r" target="_blank" class="insta-link">@bytyler_r</a>). I am a young, modern photographer based in South Africa, blending cutting-edge camera tech with an eye for detail and emotion.</p>
+                <p>Whether it's capturing the energy of high-profile events, timeless portraits, school functions, or sleek automotive designs, my goal is simple: deliver high-impact, premium visual content that speaks for itself.</p>
+                <div class="stats-grid">
+                    <div class="stat-card glass-card">
+                        <h3>100%</h3>
+                        <p>High Quality</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <h3>SA</h3>
+                        <p>Based</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">SELECTED WORK</p>
+                <h2>Featured Portfolio</h2>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="portraits">Portraits</button>
+                <button class="filter-btn" data-filter="school">School Functions</button>
+                <button class="filter-btn" data-filter="automotive">Automotive</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item glass-card" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80" alt="Live Event Photography" loading="lazy">
+                    <div class="gallery-info">
+                        <h3>Live Concert</h3>
+                        <p>Events</p>
+                    </div>
+                </div>
+                <div class="gallery-item glass-card" data-category="portraits">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Studio Portrait Photography" loading="lazy">
+                    <div class="gallery-info">
+                        <h3>Studio Portrait</h3>
+                        <p>Portraits</p>
+                    </div>
+                </div>
+                <div class="gallery-item glass-card" data-category="school">
+                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=600&q=80" alt="Graduation Event" loading="lazy">
+                    <div class="gallery-info">
+                        <h3>Matric Dance / Grad</h3>
+                        <p>School Functions</p>
+                    </div>
+                </div>
+                <div class="gallery-item glass-card" data-category="automotive">
+                    <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=600&q=80" alt="Sports Car Photography" loading="lazy">
+                    <div class="gallery-info">
+                        <h3>Supercar Shoot</h3>
+                        <p>Automotive</p>
+                    </div>
+                </div>
+                <div class="gallery-item glass-card" data-category="automotive">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80" alt="Porsche Dark Photography" loading="lazy">
+                    <div class="gallery-info">
+                        <h3>Night Automotive</h3>
+                        <p>Automotive</p>
+                    </div>
+                </div>
+                <div class="gallery-item glass-card" data-category="portraits">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80" alt="Outdoor Portrait" loading="lazy">
+                    <div class="gallery-info">
+                        <h3>Urban Portrait</h3>
+                        <p>Portraits</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="packages-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">INVESTMENT</p>
+                <h2>Photography Packages</h2>
+            </div>
+
+            <div class="packages-grid">
+                <div class="package-card glass-card">
+                    <div class="package-header">
+                        <h3>Basic</h3>
+                        <div class="price">R250</div>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fa-solid fa-check"></i> 5 Edited Photos</li>
+                        <li><i class="fa-solid fa-check"></i> High-Resolution Digital Copies</li>
+                        <li><i class="fa-solid fa-check"></i> 48-Hour Turnaround</li>
+                        <li><i class="fa-solid fa-check"></i> Online Gallery Access</li>
+                    </ul>
+                    <a href="#contact" class="btn-package" onclick="selectPackage('Basic')">Select Package</a>
+                </div>
+
+                <div class="package-card glass-card">
+                    <div class="package-header">
+                        <h3>Standard</h3>
+                        <div class="price">R450</div>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fa-solid fa-check"></i> 10 Edited Photos</li>
+                        <li><i class="fa-solid fa-check"></i> High-Resolution Digital Copies</li>
+                        <li><i class="fa-solid fa-check"></i> Light Retouching</li>
+                        <li><i class="fa-solid fa-check"></i> Online Gallery Access</li>
+                    </ul>
+                    <a href="#contact" class="btn-package" onclick="selectPackage('Standard')">Select Package</a>
+                </div>
+
+                <div class="package-card glass-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="package-header">
+                        <h3>Deluxe</h3>
+                        <div class="price">R700</div>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fa-solid fa-check"></i> 20 Edited Photos</li>
+                        <li><i class="fa-solid fa-check"></i> High-Resolution Digital Copies</li>
+                        <li><i class="fa-solid fa-check"></i> Advanced Color Grading</li>
+                        <li><i class="fa-solid fa-check"></i> Multiple Location Options</li>
+                    </ul>
+                    <a href="#contact" class="btn-package" onclick="selectPackage('Deluxe')">Select Package</a>
+                </div>
+
+                <div class="package-card glass-card">
+                    <div class="package-header">
+                        <h3>Premium</h3>
+                        <div class="price">R1100</div>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fa-solid fa-check"></i> 35+ Edited Photos</li>
+                        <li><i class="fa-solid fa-check"></i> High-Resolution Digital Copies</li>
+                        <li><i class="fa-solid fa-check"></i> Full Skin & Color Retouching</li>
+                        <li><i class="fa-solid fa-check"></i> Priority Delivery</li>
+                    </ul>
+                    <a href="#contact" class="btn-package" onclick="selectPackage('Premium')">Select Package</a>
+                </div>
+            </div>
+
+            <div class="extras-card glass-card">
+                <div class="extra-item">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <div>
+                        <h4>Deposit Required</h4>
+                        <p>R200 non-refundable deposit to secure your booking slot.</p>
+                    </div>
+                </div>
+                <div class="extra-divider"></div>
+                <div class="extra-item">
+                    <i class="fa-solid fa-car"></i>
+                    <div>
+                        <h4>Travel Fee</h4>
+                        <p>Standard R100 travel fee applies to locations within the main radius.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-box glass-card">
+                <div class="section-header">
+                    <p class="section-subtitle">LET'S CONNECT</p>
+                    <h2>Book Your Shoot</h2>
+                </div>
+
+                <form id="bookingForm" class="contact-form">
+                    <div class="form-group grid-2">
+                        <input type="text" id="name" placeholder="Your Full Name" required>
+                        <input type="email" id="email" placeholder="Your Email Address" required>
+                    </div>
+                    <div class="form-group grid-2">
+                        <input type="tel" id="phone" placeholder="Phone / WhatsApp Number" required>
+                        <select id="package" required>
+                            <option value="" disabled selected>Select a Package</option>
+                            <option value="Basic (R250)">Basic - R250 (5 photos)</option>
+                            <option value="Standard (R450)">Standard - R450 (10 photos)</option>
+                            <option value="Deluxe (R700)">Deluxe - R700 (20 photos)</option>
+                            <option value="Premium (R1100)">Premium - R1100 (35+ photos)</option>
+                        </select>
+                    </div>
+                    <div class="form-group grid-2">
+                        <select id="category" required>
+                            <option value="" disabled selected>Select Photography Type</option>
+                            <option value="Events">Events</option>
+                            <option value="Portraits">Portraits</option>
+                            <option value="School Functions">School Functions</option>
+                            <option value="Automotive">Automotive</option>
+                        </select>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Tell me more about your vision, location ideas, or event details..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-full">Submit Booking Request</button>
+                </form>
+                <div id="formStatus" class="form-status"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h2>TYLER<span>.</span></h2>
+                <p>Capturing moments. Creating memories.</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://instagram.com/bytyler_r" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i> @bytyler_r
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Tyler's Photography. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
